@@ -180,15 +180,15 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://astro-modular.netlify.app",
+  site: "https://my-personal-blog.com",
   // [CONFIG:SITE_TITLE]
-  title: "Astro Modular",
+  title: "Maxime Cordeiro's Blog",
   // [CONFIG:SITE_DESCRIPTION]
-  description: "A flexible blog theme designed for Obsidian users.",
+  description: "Personal blog of Maxime Cordeiro - DevOps, Cloud, and Cybersecurity.",
   // [CONFIG:SITE_AUTHOR]
-  author: "David V. Kimball",
+  author: "Maxime Cordeiro",
   // [CONFIG:SITE_LANGUAGE]
-  language: "en",
+  language: "fr",
   // [CONFIG:FAVICON_THEME_ADAPTIVE]
   faviconThemeAdaptive: true, // If true, favicon switches between favicon-dark.png and favicon-light.png based on browser's system theme preference. If false, always uses favicon.png
   // [CONFIG:DEFAULT_OG_IMAGE_ALT]
@@ -196,7 +196,7 @@ export const siteConfig: SiteConfig = {
 
   // Global Settings
   // [CONFIG:THEME]
-  theme: "oxygen", // Available themes: "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom"
+  theme: "catppuccin", // Available themes: "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom"
   // [CONFIG:CUSTOM_THEME_FILE]
   customThemeFile: "custom", // Only used if theme is set to "custom" above. Filename in src/themes/custom/ (without .ts extension)
   // [CONFIG:AVAILABLE_THEMES]
@@ -285,9 +285,9 @@ export const siteConfig: SiteConfig = {
   // Profile Picture
   profilePicture: {
     // [CONFIG:PROFILE_PICTURE_ENABLED]
-    enabled: false, 
+    enabled: true, 
     // [CONFIG:PROFILE_PICTURE_IMAGE]
-    image: "/profile.jpg", // Path to your profile image (place in public/ directory)
+    image: "/profile.png", // Path to your profile image (place in public/ directory)
     // [CONFIG:PROFILE_PICTURE_ALT]
     alt: "Profile picture",
     // [CONFIG:PROFILE_PICTURE_SIZE]
@@ -314,18 +314,18 @@ export const siteConfig: SiteConfig = {
       { title: "Projects", url: "/projects/" },
       { title: "Docs", url: "/docs/" },
       { title: "About", url: "/about/" },
-      { title: "GitHub", url: "https://github.com/davidvkimball/astro-modular" },
+      { title: "LinkedIn", url: "https://linkedin.com/in/maximecordeiro" },
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
       {
-        title: "X",
-        url: "https://x.com/davidvkimball",
-        icon: "x-twitter",
+        title: "LinkedIn",
+        url: "https://linkedin.com/in/maximecordeiro",
+        icon: "linkedin",
       },
       {
         title: "GitHub",
-        url: "https://github.com/davidvkimball",
+        url: "https://github.com/mjcc30",
         icon: "github",
       },
     ],
